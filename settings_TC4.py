@@ -10,7 +10,7 @@ def test_case():
     input_data = "measurements"  # from experiments
     #input_data = "created"       # set the wavemaker
     #______________ Temporal scheme _______________#
-    scheme = "MMP"
+    scheme = "SV"
     #  "SE": Symplectic-Euler ; "SV": Stormer-Verlet
     # "MMP": use the Modified Mid-Point VP approach
     #__________________ Dimension _________________#
@@ -49,7 +49,7 @@ def domain(bottom):
         Lx = 100
     Ly = 1.0                                                  # Length in y
     Lw = 1.0                                        # End of the x-transform
-    res_x = 0.01                                             # x-resolution
+    res_x = 0.02                                            # x-resolution 0.01 for nCG=1 ; 0.02 for nCG=2 ; 0.04 for nCG=4
     res_y = 1.0                                             # y-resolution
     n_z = 8                                         # Order of the expansion
     return H0, xb, sb, H_expr, Hend, Lx, Ly, Lw, res_x, res_y, n_z
