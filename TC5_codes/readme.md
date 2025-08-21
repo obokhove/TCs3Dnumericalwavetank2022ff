@@ -31,4 +31,4 @@ PFE: CG2/ $\Delta x$ / $\Delta t$ |0.01  | 97 | 485 | 4|1,695,366|615
 PFE: CG4/ $2\Delta x$ / $\Delta t$ |0.01  | 48 | 242 | 4|1,674,432|1066
 PFE: CG2/ $\frac{\Delta x}{2}$ / $\Delta t$ |0.01  | 193 | 969 | 4|6,736,086|3409
 PFE: CG2/ $\Delta x$ / $\frac{\Delta t}{2}$ |0.005  | 97 | 485 | 4|1,695,366|1276
-## Reference
+
